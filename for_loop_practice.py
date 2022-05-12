@@ -34,8 +34,10 @@ def get_fibonacci(index):
 x_list = []
 y_list = []
 
-for x in range(-10,10,1):
-    y = 3*x + 5
+for x in range(1,100,1):
+    x = x/10
+    y = np.sqrt(x)
+    
     
     x_list.append(x)
     y_list.append(y)
